@@ -23,7 +23,7 @@ function Menu(data) {
   Menu.prototype.navigation = function (destination) {
     var destPoint = document.getElementById(destination);
 
-    $('html, body').animate({scrollTop: $(destPoint).offset().top - 50}, 700)  /* --- jQuery --- */
+    $('html, body').animate({scrollTop: $(destPoint).offset().top - 50}, 700)  /* --- jQuery use --- */
     this.close();
   }
 
